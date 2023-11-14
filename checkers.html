@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>checkers</title>
+    <link rel="stylesheet" href="./checkers style.css" />
+  </head>
+  <body>
+    <h1 id="header">White Player turn</h1>
+
+    <div id="Game-Over-Screen" class="modal">
+      <div id="Game-Over-Modal" class="modal-content">
+        <!-- <p id="PlayerWonContent"></p> -->
+      </div>
+    </div>
+
+    <div class="button-row">
+      <button id="draw-button">Draw</button>
+      <button id="reset-button">Resign</button>
+    </div>
+
+    <div id="Resign-modal" class="modal">
+      <div class="modal-content">
+        <p id="Resignation"></p>
+
+        <button class="MyButton1" id="YesButton1">Yes</button>
+        <button class="MyButton1" id="NoButton2">No</button>
+      </div>
+    </div>
+
+    <div id="Draw-modal" class="modal">
+      <div id="Draw" class="modal-content">
+        <p id="DrawContent"></p>
+
+        <p id="DrawButtons" class="button-row">
+          <button class="MyButton1" id="YesButton">Yes</button>
+          <button class="MyButton1" id="NoButton">No</button>
+        </p>
+      </div>
+    </div>
+
+    <div class="Board" id="Checkers_Board"></div>
+
+    <script src="./chekers_.js"></script>
+  </body>
+</html>
